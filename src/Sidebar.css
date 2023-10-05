@@ -1,0 +1,105 @@
+.sidebar{
+    position: sticky;
+    top: 80px; /*no zero px cuz we have linked in image there and this sidebar should be 80px below from top  */
+    flex: 0.2; /*cuz we want 20percent of the screen to be our side bar {see image clicked on 29 june 23} mobile */
+    border-radius: 30px;
+    text-align: center;
+    height: fit-content;
+    
+
+}
+.sidebar_avatar{
+    margin-bottom: 10px;
+}
+.sidebar_top >h4{
+    color: gray;
+    font-size: 12px;
+}
+.sidebar_top >h2{  
+    font-size: 18px;
+}
+
+
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom:10px ; /*  gap b/w views and recent*/
+}
+
+.sidebar_top > img{
+    margin-bottom: -20px;  /* drop into the image  see pic same date 29*/
+    width: 100%;
+    height:60px ;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.sidebar_stat{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar_stat >p{
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar_stats{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1pxs solid lightgray;
+    background-color: white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 2px;
+}
+
+.sidebar_statNumber{
+    font-weight: bold;
+    color:#0a66c2 !important;
+
+}
+
+.sidebar_bottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* position: sticky; */
+}
+.sidebar_recentItem{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.sidebar_bottom>p{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.sidebar_recentItem:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.sidebar_hash{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
